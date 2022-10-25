@@ -601,11 +601,11 @@ section {
 }
 
 .services .icon-box:hover {
-  transform: translateY(-5px);
+  transform: translateY(-20px);
 }
 
 .services .icon i {
-  font-size: 60px;
+  font-size: 75px;
   line-height: 1;
   margin-bottom: 15px;
 }
@@ -614,6 +614,12 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+}
+.services .icon img{
+  height: 75px;
+  weight: 75px;
+  line-height: 1;
+  margin-bottom: 15px;
 }
 
 .services .title a {
@@ -650,8 +656,9 @@ section {
   border-color: #41cf2e;
 }
 
-.services .icon-box-blue .icon i {
-  color: #2282ff;
+.services .icon-box-blue {
+  color: #fff;
+  background-color:#2282ff;
 }
 
 .services .icon-box-blue:hover {
@@ -1655,4 +1662,32 @@ section {
   text-align: center;
   font-size: 13px;
   color: #364146;
+}
+.profil{
+  border-radius:20%;
+}
+.sambutan{
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  border-radius: 20px;
+  background-color:#ffffe;
+}
+.sambutan h2{
+  margin: 0 0 20px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #364146;
+  font-family: "Poppins", sans-serif;
+}
+.sambutan .article{
+  color: #576971;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-family: "Roboto Condensed";
 }
